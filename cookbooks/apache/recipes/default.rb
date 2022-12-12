@@ -17,8 +17,6 @@ end
 # A cookbook_file resource
 cookbook_file '/var/www/html/index.html' do
   source 'regularindex.html'
-  owner 'root'
-  group 'root'
   mode '0644'
   action :create
 end

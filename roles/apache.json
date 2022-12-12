@@ -2,7 +2,10 @@
     "name": "apache",
     "override_attributes": {
         "apache": {
-            "indexfile": "roleattrindex.html"
+            "indexfile": "templateindex.html.erb",
+            "website": {
+                "name": "SHA"
+            }
         }
     },
     "run_list": [

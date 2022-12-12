@@ -15,7 +15,7 @@ service 'apache2' do
 end
 
 # A cookbook_file resource
-cookbook_file '/var/www/html/index.html' do
+template '/var/www/html/index.html' do
   source node['apache']['indexfile']
   mode '0644'
   action :create

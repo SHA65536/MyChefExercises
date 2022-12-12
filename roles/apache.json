@@ -8,7 +8,7 @@
             }
         },
         "packages-cookbook": [
-            "python"
+            "python3"
         ]
     },
     "run_list": [

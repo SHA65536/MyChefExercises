@@ -1,0 +1,11 @@
+{
+    "name": "apache",
+    "override_attributes": {
+        "apache": {
+            "indexfile": "roleattrindex.html"
+        }
+    },
+    "run_list": [
+        "recipe[apache]"
+    ]
+}

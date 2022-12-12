@@ -6,9 +6,12 @@
             "website": {
                 "name": "SHA"
             }
-        }
+        },
+        "packages-cookbook": [
+            "python"
+        ]
     },
     "run_list": [
-        "recipe[apache]"
+        "recipe[apache]", "recipe[packages]"
     ]
 }

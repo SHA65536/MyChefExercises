@@ -4,6 +4,8 @@
 #
 # Copyright:: 2022, The Authors, All Rights Reserved.
 
+include_recipe 'hello_world'
+
 # A package resource named "apache2", with actions install
 package 'apache2' do
   action :install
